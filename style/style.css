@@ -12,7 +12,8 @@ body {
 header {
   margin: auto;
   width: 100%;
-  background-color: darkgrey;
+  background: -webkit-gradient(linear, left bottom, right top, from(#A8AFB5), to(#CCD4DB));
+  background: linear-gradient(to right top, #A8AFB5, #CCD4DB);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,6 +31,13 @@ header {
 
 header h1 {
   font-size: 4rem;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+header h1:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 header h3 {
@@ -49,7 +57,6 @@ header h3 {
           align-items: center;
   width: 400px;
   height: 400px;
-  margin-top: 10px;
 }
 
 .note-name {
@@ -89,7 +96,7 @@ header h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  bottom: 20px;
+  bottom: 50px;
   margin: auto;
   width: 100%;
 }
@@ -97,7 +104,7 @@ header h3 {
 .piano div {
   width: 70px;
   height: 150px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   border: 2px solid black;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
