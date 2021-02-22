@@ -89,7 +89,6 @@ header h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: absolute;
   bottom: 20px;
   margin: auto;
   width: 100%;
@@ -98,7 +97,7 @@ header h3 {
 .piano div {
   width: 70px;
   height: 150px;
-  margin: 0px;
+  margin-bottom: 50px;
   border: 2px solid black;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
