@@ -10,6 +10,7 @@ window.addEventListener("load", () => {
         tile.addEventListener("click", function() {
             note_names.innerHTML = "";
             tiles[index].currentTime = 0;
+            tiles[index].volume = 0.2;
             tiles[index].play();
             var note = pads[index].id;
             var h1 = document.createElement("h1");
