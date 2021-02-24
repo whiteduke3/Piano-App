@@ -1,0 +1,19 @@
+{
+  "name": "piano-app",
+  "version": "1.0.0",
+  "description": "Ear training app to practice pitch. Made with Sass and VanillaJS.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whiteduke3/Piano-App.git"
+  },
+  "author": "Dino Celikovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whiteduke3/Piano-App/issues"
+  },
+  "homepage": "https://github.com/whiteduke3/Piano-App#readme"
+}

@@ -1,6 +1,5 @@
 //Main javascript code
 
-
 window.addEventListener("load", () => {
     var pads = document.querySelectorAll(".piano div");
     var tiles = document.querySelectorAll(".tile");
